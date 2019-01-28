@@ -6,3 +6,5 @@ git clone https://github.com/litecoin-project/litecoin.git
 cd litecoin
 ./autogen.sh
 ./configure --without-gui --disable-wallet
+gmake
+gmake install
